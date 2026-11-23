@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="style.css" />
     <script src="data.js" defer></script>
     <script src="script.js" defer></script>
+    <script src="snow.js" defer></script>
+    <script src="slider.js" defer></script>
   </head>
   <body>
     <div class="background-glow bg-one" aria-hidden="true"></div>
@@ -55,6 +57,43 @@
         </div>
         <div id="links" class="links"></div>
       </section>
+
+      <!-- IMAGE SLIDER -->
+      <section
+        id="bio-slider"
+        class="bio-slider"
+        aria-label="สไลด์รูปภาพ"
+        hidden
+      >
+        <div class="bio-slider-viewport">
+          <div id="bio-slider-track" class="bio-slider-track"></div>
+
+          <!-- ปุ่มก่อนหน้า -->
+          <button
+            type="button"
+            id="bio-slider-prev"
+            class="bio-slider-nav bio-slider-prev"
+            aria-label="รูปก่อนหน้า"
+          >
+            &#10094;
+          </button>
+
+          <!-- ปุ่มถัดไป -->
+          <button
+            type="button"
+            id="bio-slider-next"
+            class="bio-slider-nav bio-slider-next"
+            aria-label="รูปถัดไป"
+          >
+            &#10095;
+          </button>
+        </div>
+
+        <!-- จุดบอกตำแหน่งรูป -->
+        <div id="bio-slider-dots" class="bio-slider-dots"></div>
+      </section>
+      <!-- END IMAGE SLIDER -->
+
       <footer>
         <p id="footer"></p>
         <button class="copy-link" id="copyLink" type="button">

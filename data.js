@@ -38,5 +38,28 @@ window.BIO_DATA = {
       enabled: true,
     },
   ],
+  slides: [
+    {
+      image: "assets/slide1.jpg",
+      alt: "ภาพโปรโมชั่น 1",
+    },
+    {
+      image: "assets/slide2.jpg",
+      alt: "ภาพโปรโมชั่น 2",
+    },
+    {
+      image: "assets/slide3.jpg",
+      alt: "ภาพโปรโมชั่น 3",
+    },
+    {
+      image: "assets/slide4.jpg",
+      alt: "ภาพโปรโมชั่น 4",
+    },
+    {
+      image: "assets/slide5.jpg",
+      alt: "ภาพโปรโมชั่น 5",
+    },
+  ],
+
   footer: "© ครูถ้วย · รวมทุกช่องทางไว้ที่นี่",
 };
