@@ -6,24 +6,24 @@ window.BIO_DATA = {
   description: "รวมช่องทางและลิงก์อัปเดตของครูถ้วย",
   avatar: "assets/Logokruthuay.png", // เปลี่ยนเป็น assets/profile.jpg ได้
   cover: "", // ตัวอย่าง assets/cover.jpg หรือปล่อยว่าง
-  accent: "#69f0b5",
+  accent: "#ffffff",
   accent2: "#e9bc65",
   background: "#102743",
-  social: [
-    {
-      label: "LINE",
-      icon: "line",
-      url: "https://lin.ee/QeyhPnx",
-      enabled: true,
-    },
-    { label: "แชร์", icon: "share", url: "", enabled: true },
-  ],
+  // social: [
+  //   {
+  //     label: "LINE",
+  //     icon: "line",
+  //     url: "https://lin.ee/QeyhPnx",
+  //     enabled: true,
+  //   },
+  //   { label: "แชร์", icon: "share", url: "", enabled: true },
+  // ],
   links: [
     {
       id: "register",
       title: "💝 สมัครที่นี่ 24 ชั่วโมง 💝",
-      subtitle: "เข้าชมรายละเอียดและข้อมูลเพิ่มเติม",
-      url: "https://abaplay.me/",
+      subtitle: "รับโบนัสทันที ไม่ต้องลุ้นให้เหนื่อยใจ",
+      url: "https://abaplay.me/register?ref=81k47EK6",
       image: "assets/logoaba.jpg",
       badge: "24 ชั่วโมง",
       enabled: true,
@@ -31,7 +31,7 @@ window.BIO_DATA = {
     {
       id: "community",
       title: "🎉 เข้ากลุ่มดูคลิป FREE 🎉",
-      subtitle: "ติดตามประกาศและเนื้อหาใหม่",
+      subtitle: "ดูให้ฟิน แล้วเช็คอินรับรางวัลทุกวัน",
       url: "https://lin.ee/QeyhPnx",
       image: "assets/logo18.jpg",
       badge: "FREE",
