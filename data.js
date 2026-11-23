@@ -4,7 +4,7 @@ window.BIO_DATA = {
   // handle: "#1232511111515",
   headline: "💚 เ ปิ ด ว า ร์ ป เ ด็ ด 💚",
   description: "รวมช่องทางและลิงก์อัปเดตของครูถ้วย",
-  avatar: "assets/logokruthuay.png", // เปลี่ยนเป็น assets/profile.jpg ได้
+  avatar: "assets/Logokruthuay.png", // เปลี่ยนเป็น assets/profile.jpg ได้
   cover: "", // ตัวอย่าง assets/cover.jpg หรือปล่อยว่าง
   accent: "#69f0b5",
   accent2: "#e9bc65",
