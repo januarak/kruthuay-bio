@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#102743" />
+    <meta name="description" content="รวมทุกช่องทางและลิงก์ของครูถ้วย" />
+    <meta property="og:title" content="ครูถ้วย | รวมลิงก์" />
+    <meta
+      property="og:description"
+      content="ช่องทางติดตามและลิงก์ต่างๆ ของครูถ้วย"
+    />
+    <meta property="og:type" content="website" />
+    <title>ครูถ้วย | Bio Links</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="data.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="background-glow bg-one" aria-hidden="true"></div>
+    <div class="background-glow bg-two" aria-hidden="true"></div>
+    <main class="page">
+      <section class="profile" aria-label="หน้าโปรไฟล์">
+        <div class="banner" id="banner">
+          <div class="banner-pattern" aria-hidden="true">✦　✧　✦</div>
+        </div>
+        <div class="profile-content">
+          <img
+            class="avatar"
+            id="avatar"
+            src="assets/avatar.svg"
+            alt="รูปโปรไฟล์ครูถ้วย"
+            width="116"
+            height="116"
+          />
+          <div class="identity">
+            <div class="eyebrow" id="handle">#123255</div>
+            <h1 id="brand">ครูถ้วย</h1>
+            <p id="headline" class="headline"></p>
+            <p id="description" class="description"></p>
+          </div>
+          <div
+            class="socials"
+            id="socials"
+            aria-label="ช่องทางอื่นและแชร์หน้าเว็บ"
+          ></div>
+        </div>
+      </section>
+      <section aria-label="ลิงก์แนะนำ" class="links-section">
+        <div class="section-title">
+          <span class="spark">✦</span>
+          <h2>ช่องทางแนะนำ</h2>
+          <span class="spark">✦</span>
+        </div>
+        <div id="links" class="links"></div>
+      </section>
+      <footer>
+        <p id="footer"></p>
+        <button class="copy-link" id="copyLink" type="button">
+          ⧉ คัดลอกลิงก์หน้านี้
+        </button>
+      </footer>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
